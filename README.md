@@ -53,4 +53,4 @@ where:
 Results of the search will be saved in folder *results*
 
 ## Paper
-X. Wang, P. Arcaini, T. Yue, S. Ali. Generating Failing Test Suites for Quantum Programs with Search. In 13th Symposium on Search-Based Software Engineering (SSBSE 2021)
+X. Wang, P. Arcaini, T. Yue, S. Ali. Generating Failing Test Suites for Quantum Programs with Search. In 13th Symposium on Search-Based Software Engineering (SSBSE 2021) [[doi](https://doi.org/10.1007/978-3-030-88106-1_2)]
