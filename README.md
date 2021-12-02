@@ -1,5 +1,7 @@
 # QuSBT: Search-based Testing of Quantum Programs
 
+<img src="QuSBT_logo.png" width="200">
+
 This repository contains the code to reproduce the results of the paper "Generating Failing Test Suites for Quantum Programs with Search", published in 13th Symposium on Search-Based Software Engineering (SSBSE 2021).
 
 It also contains the original results reported in the paper.
