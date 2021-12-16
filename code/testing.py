@@ -3,7 +3,7 @@ import collections
 import numpy as np
 import rpy2.robjects as robjects
 
-from programs import DM, AI, CE, AS, SM, BV, QRAM, IQFT
+from programs import CE, AS, SM, BV, QRAM, IQFT
 
 
 def dec2bin(n, dec2bin_param):
