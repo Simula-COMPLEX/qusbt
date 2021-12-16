@@ -147,20 +147,7 @@ def calculate_fail_number_GA(input, dec2bin_param, group_name, program_name, alg
 
 
 def get_counts(program_name, group_name, count_times, i, input):
-    if program_name == 'AI':
-        if group_name == 'AI_1':
-            return AI.AI_M1(int(input[i]), count_times)  # getting counts
-        elif group_name == 'AI_2':
-            return AI.AI_M2(int(input[i]), count_times)  # getting counts
-        elif group_name == 'AI_3':
-            return AI.AI_M3(int(input[i]), count_times)  # getting counts
-        elif group_name == 'AI_4':
-            return AI.AI_M4(int(input[i]), count_times)  # getting counts
-        elif group_name == 'AI_5':
-            return AI.AI_M5(int(input[i]), count_times)  # getting counts
-        else:
-            return None
-    elif program_name == 'BV':
+    if program_name == 'BV':
         if group_name == 'BV_1':
             return BV.BV_M1(int(input[i]), count_times)  # getting counts
         elif group_name == 'BV_2':
@@ -184,19 +171,6 @@ def get_counts(program_name, group_name, count_times, i, input):
             return CE.CE_M4(int(input[i]), count_times)  # getting counts
         elif group_name == 'CE_5':
             return CE.CE_M5(int(input[i]), count_times)  # getting counts
-        else:
-            return None
-    elif program_name == 'DM':
-        if group_name == 'DM_1':
-            return DM.DM_M1(int(input[i]), count_times)  # getting counts
-        elif group_name == 'DM_2':
-            return DM.DM_M2(int(input[i]), count_times)  # getting counts
-        elif group_name == 'DM_3':
-            return DM.DM_M3(int(input[i]), count_times)  # getting counts
-        elif group_name == 'DM_4':
-            return DM.DM_M4(int(input[i]), count_times)  # getting counts
-        elif group_name == 'DM_5':
-            return DM.DM_M5(int(input[i]), count_times)  # getting counts
         else:
             return None
     elif program_name == 'SM':
@@ -254,14 +228,10 @@ def get_counts(program_name, group_name, count_times, i, input):
 
 
 def get_pv(program_name, i, input):
-    if program_name == 'AI':
-        return AI.probabilityComputing(int(input[i]))  # getting probability
-    elif program_name == 'BV':
+    if program_name == 'BV':
         return BV.probabilityComputing(int(input[i]))  # getting probability
     elif program_name == 'CE':
         return CE.probabilityComputing(int(input[i]))  # getting probability
-    elif program_name == 'DM':
-        return DM.probabilityComputing(int(input[i]))  # getting probability
     elif program_name == 'SM':
         return SM.probabilityComputing(int(input[i]))  # getting probability
     elif program_name == 'AS':
